@@ -2,24 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 const ResetStyle = createGlobalStyle`
 
-@font-face {
-  font-family: 'NexonGothic';
-  src: url('/public/fonts/NEXON_Gothic.eot');
-  src: url('/public/fonts/NEXON_Gothic.eot#iefix') format('embedded-opentype'),
-       url('/public/fonts/NEXON_Gothic.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NexonGothic';
-  src: url('/public/fonts/NEXON_Gothic_Bold.eot');
-  src: url('/public/fonts/NEXON_Gothic_Bold.eot#iefix') format('embedded-opentype'),
-       url('/public/fonts/NEXON_Gothic_Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
